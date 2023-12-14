@@ -143,6 +143,8 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   font-family: "Raleway", sans-serif;
+  background: var(--WHITE, #fff);
+  margin-right: 76px;
 }
 
 .logo-span-dark-header {
@@ -160,13 +162,18 @@ body {
 /* hero content section */
 
 .hero-image-section {
-  background: url(../images/computerdesktop.jpeg);
-  background-color: var(--GREY, rgba(46, 47, 66, 0.7));
+  background-color: var(--navy-blue);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/computerdesktop.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 188px;
-  display: block;
+  padding: 188px 0;
+  display: flex;
   justify-content: center;
 }
 
@@ -177,6 +184,8 @@ body {
   line-height: 107.143%;
   letter-spacing: 1.12px;
   max-width: 496px;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .hero-image-button {
@@ -248,6 +257,19 @@ body {
   line-height: 150%; /* 150% */
   font-weight: 400;
   letter-spacing: 0.32px;
+}
+
+.svg-icon {
+  background-color: var(--CLOUD, #f4f4fd);
+  fill: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  padding: 24px 100px;
+  gap: 24px;
 }
 
 /* section two : What are we doing */
