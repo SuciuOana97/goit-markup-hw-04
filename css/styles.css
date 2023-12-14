@@ -160,14 +160,16 @@ body {
 /* hero content section */
 
 .hero-image-section {
-  background-image: url(../images/computerdesktop.jpeg);
+  background: url(../images/computerdesktop.jpeg);
   background-color: var(--GREY, rgba(46, 47, 66, 0.7));
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 188px;
   display: block;
   justify-content: center;
 }
+
 .hero-image-header {
   color: var(--WHITE, #fff);
   text-align: center;
