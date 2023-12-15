@@ -460,10 +460,13 @@ body {
 
 .footer-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  flex-direction: column;
+  display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: left;
   padding: 100px 0;
+  gap: 1px;
+  align-items: baseline;
+  padding-left: 156px;
 }
 
 .footer-logo {
@@ -529,7 +532,7 @@ body {
   background-color: #31d0aa;
 }
 
-.footer-side {
+.footer-bar {
   margin-right: 120px;
 }
 .footer-social-media {
