@@ -493,7 +493,7 @@ body {
   letter-spacing: 0.32px;
   width: 264px;
 }
-.title-three {
+.title-icon-media {
   color: var(--WHITE, #fff);
   font-family: Roboto;
   font-size: 16px;
@@ -503,7 +503,7 @@ body {
   margin-bottom: 16px;
 }
 
-.footer-social-bar {
+.footer-social-sec {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -511,7 +511,7 @@ body {
   padding-left: 0px;
 }
 
-.footer-icon-space {
+.footer-icon {
   width: 100%;
   height: 100%;
   background-color: var(--iris);
@@ -532,7 +532,7 @@ body {
 .footer-side {
   margin-right: 120px;
 }
-.footer-social-side {
+.footer-social-media {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
