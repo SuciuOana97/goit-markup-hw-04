@@ -373,8 +373,7 @@ body {
 }
 
 .team-icon {
-  fill: var(--IRIS, #4d5ae5);
-  background-color: var(--iris);
+  background-color: var(--iris) #4d5ae5;
   width: 40px;
   height: 40px;
   display: flex;
@@ -410,6 +409,19 @@ body {
   padding-bottom: 120px;
 }
 
+.title-two {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 11px; /* 111.111% */
+  letter-spacing: 0.72px;
+  margin-bottom: 72px;
+  text-transform: capitalize;
+}
 .customer-box {
   width: 168px;
   height: 88px;
@@ -432,7 +444,7 @@ body {
   color: #404bbf;
 }
 .customer-icon {
-  fill: #8e8f99;
+  fill: currentColor;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -481,7 +493,6 @@ body {
   letter-spacing: 0.32px;
   width: 264px;
 }
-
 .title-three {
   color: var(--WHITE, #fff);
   font-family: Roboto;
@@ -525,7 +536,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
   margin-left: 120px;
   margin-right: 120px;
@@ -534,6 +545,7 @@ body {
 .svg {
   fill: #f4f4fd;
 }
+
 /* ./PORTOFOLIO.HTML */
 
 /* the list of buttons */
