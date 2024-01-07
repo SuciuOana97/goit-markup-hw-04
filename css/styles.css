@@ -35,7 +35,7 @@
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-bg {
+.modal-window {
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -50,7 +50,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close {
+.modal-button {
   position: absolute;
   display: flex;
   align-items: center;
@@ -68,12 +68,12 @@
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-button {
+.button-button {
   fill: var(--CORNFLOWER, #e7e9fc);
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal-button:hover,
+.modal-button:focus {
   background-color: #404bbf;
   border: none;
 }
@@ -84,12 +84,12 @@
   pointer-events: none;
 }
 
-.close-svg {
+.svg-close-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-svg:hover,
-.close-svg:focus {
+.svg-close-button:hover,
+.svg-close-button:focus {
   fill: #ffffff;
 }
 
